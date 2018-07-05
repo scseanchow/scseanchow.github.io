@@ -1,0 +1,65 @@
+.center {
+    text-align: center;
+}
+
+.circle {
+    border-radius: 150px;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+body {
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+}
+
+.face {
+    width: 175px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (min-width: 550px) {
+    footer {
+        text-align: left;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+.job-description {
+    font-size: 12px;
+}
+
+.body-header {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.fa,
+.fab,
+.fas,
+.far {
+    margin-right: .5em;
+}
+
+@media (min-width: 850px) {
+    .one-half-inception.column {
+        width: 48%;
+    }
+}
