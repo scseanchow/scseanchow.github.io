@@ -63,31 +63,31 @@ li {
     font-size: 13px;
 }
 .body-header {
-    color: white;
+    color:#F2D7D5;
 }
 
 h1 {
-    color:white;
+    color:#F2D7D5;
 }
 
 li {
-    color: white;
+    color:#e6e6e6;
 }
 h2, h3, h4, h5, h6 {
-    color: white;
+    color:white;
     font-weight: bold;
 }
 span {
-    color: white;
+    color:#e6e6e6;
 }
 
 p {
-    color: white;
+    color:#e6e6e6;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #e6e6e6;
     text-decoration: none;
     transition: color 0.3s linear;
     -webkit-transition: color 0.3s linear;
