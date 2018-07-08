@@ -34,6 +34,13 @@ canvas {
     width: 175px;
 }
 
+.image {
+    max-height: 300px;
+    max-width: 300px;
+    min-height: 150px;
+    min-width: 150px;
+}
+
 footer {
     text-align: center;
 }
