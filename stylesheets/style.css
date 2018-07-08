@@ -1,3 +1,23 @@
+body {
+    background: #282931;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 7rem;
+    margin-bottom: 1rem;
+    height: 100%;
+}
+
+canvas {
+    height: 100vh;
+    z-index: -10;
+    position: fixed;
+    top: 0px;
+}
+
+.contact-info {
+    padding-right: 14px;
+    font-size: 24px;
+}
 .center {
     text-align: center;
 }
@@ -8,12 +28,6 @@
 
 .small {
     font-size: 1rem;
-}
-
-body {
-    margin-top: 7rem;
-    margin-bottom: 1rem;
-    height: 100%;
 }
 
 .face {
@@ -36,15 +50,37 @@ li {
 
 .job-description {
     font-size: 12px;
+    color: white;
+}
+.project-description {
+    font-size: 13px;
+}
+.body-header {
+    color: white;
 }
 
-.body-header {
-    color: red;
+h1 {
+    color:white;
+}
+
+li {
+    color: white;
+}
+h2, h3, h4, h5, h6 {
+    color: white;
+    font-weight: bold;
+}
+span {
+    color: white;
+}
+
+p {
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: #222;
+    color: white;
     text-decoration: none;
     transition: color 0.3s linear;
     -webkit-transition: color 0.3s linear;
@@ -52,7 +88,7 @@ a {
 }
 
 a:hover {
-    color:blue;
+    color: #5b1bf0;
 }
 
 .fa,
