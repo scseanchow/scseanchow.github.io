@@ -34,15 +34,6 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="mailto:me@seanchow.com"
-              className={cn(
-                "border-2 border-border-heavy bg-accent-orange px-4 py-2 text-sm font-semibold uppercase",
-                "shadow-posthog transition-all hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
-              )}
-            >
-              Hire Me
-            </Link>
           </nav>
           <button
             className="md:hidden"
@@ -85,13 +76,6 @@ export function Navbar() {
                   </Link>
                 ))}
               </div>
-              <Link
-                href="mailto:me@seanchow.com"
-                className="inline-flex border-2 border-border-heavy bg-accent-orange px-6 py-3 text-base font-semibold uppercase shadow-posthog"
-                onClick={close}
-              >
-                Hire Me
-              </Link>
             </motion.div>
           </motion.div>
         )}
