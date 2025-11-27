@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-beige: #FFF9F2;
+  --text-primary: #1D1D1D;
+  --text-secondary: #585858;
+  --border-heavy: #000000;
+  --accent-orange: #E86C3F;
+  --accent-blue: #35405D;
+  --accent-yellow: #FFDC98;
+}
+
+* {
+  border-color: var(--border-heavy);
+}
+
+body {
+  background-color: var(--bg-beige);
+  color: var(--text-primary);
+  font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent-orange);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--accent-yellow);
+  color: var(--text-primary);
+}
