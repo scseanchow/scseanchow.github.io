@@ -1,8 +1,8 @@
-import { ForwardedRef, HTMLAttributes, forwardRef } from "react";
+import { ForwardedRef, HTMLAttributes, forwardRef, ElementType } from "react";
 import { cn } from "@/lib/cn";
 
 export interface CardProps extends HTMLAttributes<HTMLDivElement> {
-  as?: keyof JSX.IntrinsicElements;
+  as?: ElementType;
 }
 
 export const Card = forwardRef(function Card(
